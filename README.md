@@ -2,6 +2,8 @@
 
 A client-side Minecraft mod that transforms the Waystones selection screen with an interactive, top-down terrain map. See exactly where each waystone is located relative to the surrounding landscape, with persistent tiles that remember everywhere you've explored.
 
+Inspired by [squaremap](https://github.com/jpenilla/squaremap) by jpenilla - this addon brings the same beautiful tile-based mapping to your Waystones menu.
+
 ## What Does This Do?
 
 When you open your Waystones menu, instead of just seeing a list of waystone names, you'll see a live, squaremap-style terrain view showing:
@@ -133,6 +135,10 @@ This approach ensures minimal performance impact - tiles are only generated once
 - **Optional Dependencies**: Open Parties and Claims (for party member markers)
 
 Tested with Fabric Loader 0.15.0+ and Fabric API.
+
+## Credits
+
+This mod is inspired by [squaremap](https://github.com/jpenilla/squaremap) by jpenilla - an excellent server-side mapping plugin. We adapted the tile-based rendering approach for client-side use in the Waystones UI.
 
 ## License
 
